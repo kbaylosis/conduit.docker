@@ -13,4 +13,4 @@ RUN apt-get update && \
 SHELL ["/bin/bash", "-c"]
 
 RUN echo "export PATH=$HOME/.pub-cache/bin:$PATH" >> .bashrc
-RUN dart pub global activate conduit 4.2.0
+RUN dart pub global activate conduit 4.2.2
